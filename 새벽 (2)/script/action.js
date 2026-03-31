@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$('.ham').click(function(){
+		$(this).toggleClass('action');
+		$('.gnb').toggleClass('action');
+		$('#wrap').toggleClass('action')
+		$('.box').toggleClass('action')
+	}); 
+	/*$('body').click(function(){
+		$('*').removeClass('action')
+	})*/
+})
